@@ -41,6 +41,7 @@ networking:
 platform:
   azure:
     baseDomainResourceGroupName: $baseDomainResourceGroup
+    resourceGroupName: rg-sandbox-ibm-maximo
     virtualNetwork: $vnetName
     networkResourceGroupName: $resourceGroupName
     controlPlaneSubnet: $subnetControlNodeName
